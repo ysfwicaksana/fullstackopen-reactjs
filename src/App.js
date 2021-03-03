@@ -27,15 +27,15 @@ const App = () => {
   const handleBad = () => setBad(bad + 1);
   const handleNeutral = () => setNeutral(neutral + 1);
 
-  const handleAverage = () => {
-    let defaultGood = 1 * good;
-    let defaultNeutral = 0 * neutral;
-    let defaultBad = -1 * bad;
+  // const handleAverage = () => {
+  //   let defaultGood = 1 * good;
+  //   let defaultNeutral = 0 * neutral;
+  //   let defaultBad = -1 * bad;
 
-    return defaultGood + defaultNeutral + defaultBad;
+  //   return defaultGood + defaultNeutral + defaultBad;
 
-    // console.log(result);
-  };
+  //   // console.log(result);
+  // };
 
   return (
     <>
